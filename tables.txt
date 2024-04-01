@@ -1,0 +1,63 @@
+
+home page
+about contact admin farmer login/signup
+
+admin
+edit profile,add subside,view delete,view comments and reply logout
+add seed edit delete
+add fertilizer edit delete
+
+farmer
+edit profile,view subsidy ,post a question logout
+
+***************************************
+
+agri2024
+
+
+CREATE TABLE admin
+(email VARCHAR(100),
+password VARCHAR(100));
+
+insert into admin values('a@g.com','admin');
+
+
+
+CREATE TABLE farmer
+(fname varchar(100),mobile varchar(100),email VARCHAR(100),
+password VARCHAR(100));
+
+CREATE TABLE subsidy
+(sid varchar(100),sname varchar(100),criteria VARCHAR(100),lastdate varchar(100));
+
+CREATE TABLE seeds
+(seedid varchar(100),sname varchar(100),rate VARCHAR(100),updatedate varchar(100));
+
+CREATE TABLE fertilizer
+(fid varchar(100),fname varchar(100),rate VARCHAR(100),updatedate varchar(100));
+
+CREATE TABLE query
+(slno varchar(100),question varchar(100),ans VARCHAR(100),status varchar(100),email varchar(100));
+
+
+CREATE TABLE fapply
+(sid varchar(100),sname varchar(100),doapply VARCHAR(100),email varchar(100));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+   <td>Password</td>
+          <td><label>
+            <input type="password" name="textfield2"   placeholder="Password:" required id="t10" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"/>
+
+
+  <td>Name</td>
+          <td><label>
+            <input type="text" name="textfield3" pattern="[A-Za-z]+" title="letters only" required />
+          </label></td>
+
+
+  <td><label>
+            <input name="textfield5" maxlength="10" placeholder="Phone or Mobile no"  pattern="^\d{10}$" title="only nos should be 10 digits" required/>
+          </label></td>
+
+
+-------------------------------------------------------------------------------------------------
+
+
+<style>
+input[type=button],input[type=submit],input[type=Reset] {
+  background-color:#FF940A; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  font-size: 16px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+   border-radius:5px;
+   
+}
+
+</style>
